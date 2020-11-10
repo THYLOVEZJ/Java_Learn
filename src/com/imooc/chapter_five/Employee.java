@@ -9,7 +9,7 @@ public class Employee extends Person {
     public Employee(String name,double salary,int year,int month,int day){
         super(name);
         this.salary=salary;
-        LocalDate.of(year,month,day);
+        this.hireday=LocalDate.of(year,month,day);
     }
 
     public double getSalary() {
